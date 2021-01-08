@@ -30,7 +30,7 @@ def slack_me():
 @basic_auth.required
 def start_scheduler():
     try:
-        sched_daily.add_job(slack_me, 'interval', minutes=30,
+        sched_daily.add_job(slack_me, 'interval', minutes=60,
                             id='tweet_job')
         sched_daily.start()
         return 'start the tweet process'
