@@ -122,8 +122,8 @@ def convert(val):
 
 
 def get_text():
-    # today = nepali_datetime.date.today()
-    today = nepali_datetime.date(2077, 12, 31)
+    today = nepali_datetime.date.today()
+    # today = nepali_datetime.date(2077, 12, 31)
     day_of_year = (today - nepali_datetime.date(today.year, 1, 1)).days 
     date_np = convert(today.day)+'-'+convert(today.month)+'-'+convert(today.year)
     if day_of_year in date_dict:
