@@ -4,7 +4,11 @@ from nepali_year_in_progress.models import TwitterClient
 from nepali_year_in_progress.helpers import get_text
 from apscheduler.schedulers.background import BackgroundScheduler
 import requests
+
+
 slack_hook = "https://hooks.slack.com/services/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"
+sched_daily = BackgroundScheduler(daemon=True)
+
 
 @application.route('/')
 def hello():
