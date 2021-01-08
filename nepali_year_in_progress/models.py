@@ -24,7 +24,7 @@ class TwitterClient(object):
             self.api = tweepy.API(self.auth)
         except:
             print('Error: Authentication error')
-
+    
     def post_tweet(self, text):
         self.api.update_status(text)
 
