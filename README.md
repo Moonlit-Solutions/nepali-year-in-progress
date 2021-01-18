@@ -41,3 +41,5 @@
 
 
 # .env
+
+Add Twitter keys and BasicAuth keys to the .env_sample file. Once complete rename it to .env
