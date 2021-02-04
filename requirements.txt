@@ -24,7 +24,7 @@ MarkupSafe==1.1.1
 nepali-date==2.0.5
 nepali-datetime==1.0.2
 numpy==1.19.2
-pandas==1.2.0
+pandas==1.1.5
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 PySocks==1.7.1
