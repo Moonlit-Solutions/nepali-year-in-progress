@@ -1,4 +1,5 @@
 ![Workflow](https://github.com/Moonlit-Solutions/nepali-year-in-progress/workflows/Python%20application/badge.svg)
+![tweet](https://github.com/Moonlit-Solutions/nepali-year-in-progress/workflows/tweet/badge.svg)
 
 # Installation
 
