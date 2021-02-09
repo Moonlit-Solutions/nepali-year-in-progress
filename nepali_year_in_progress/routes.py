@@ -28,7 +28,8 @@ def post_tweet():
 
 @application.route('/slack_me')
 def slack_me():
-    requests.post(slack_hook, headers={'Content-type': 'application/json'}, json={'text': 'testing heroku scheduler, should send messages every hour, if not working we gotta pay shit shit shit'})
+    requests.post(slack_hook, headers={'Content-type': 'application/json'}, json={
+        'text': 'testing heroku scheduler'})
     return 'done'   
 
 @application.route('/scheduler/start')
