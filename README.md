@@ -33,14 +33,6 @@
 `$env:FLASK_APP="app.py"`
 `flask run`
 
-# URLs
-`/post_tweet` posts progress tweet directly (depending on if the day of the year is "optimal" for posting tweet
-
-`/scheduler/start` starts the scheduler which triggers every 24 hours
-
-`/scheduler/stop` stops the scheduler
-
-
 # .env
 
 Add Twitter keys and BasicAuth keys to the .env_sample file. Once complete rename it to .env
